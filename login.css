@@ -1,0 +1,40 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: auto 40%;
+}
+
+#formDiv {
+    width: 60%;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .grid1{
+        background-color: rgb(206, 206, 235);;
+    }
+
+    .grid1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #formDiv{
+        width: 80%;
+        height: 100%;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    #formDiv div{
+        padding: 1%;
+        margin: 2%;
+    }
+
+    #formDiv button{
+        padding: 20px 26px;
+        font-size: 16px;
+    }
+
+}

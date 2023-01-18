@@ -1,0 +1,35 @@
+/* .grid{
+    display: grid;
+    grid-template-columns: auto 40%;
+} */
+
+.mainSector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15%;
+} 
+
+#landing{
+    text-align: center;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 992px) {
+    .mainSector{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* #banner{
+        align-self: flex-end;
+        /* width: 50px;
+        height: 45px; 
+    } */
+}

@@ -1,0 +1,45 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto 25%;
+    
+}
+
+#mainDiv {
+    background-color: rgb(168, 202, 237);
+    border: 2px lightskyblue solid;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#taskbar {
+    width: 60%;
+    background-color: rgb(168, 202, 237);
+    border: 2px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+@media screen and (max-width: 992px) {
+    #advertising{
+        display: none;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    /* #postcard div{
+flex-direction: ;    } */
+
+    #leftside{
+        display: none;
+    }
+
+}
