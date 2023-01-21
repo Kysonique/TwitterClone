@@ -1,6 +1,7 @@
 .grid1 {
     display: grid;
     grid-template-columns: auto 40%;
+    margin-top: 5%;
 }
 
 #formDiv {
@@ -8,10 +9,13 @@
     align-items: center;
 }
 
+footer{
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 5%;
+}
+
 @media screen and (max-width: 992px) {
-    .grid1{
-        background-color: rgb(206, 206, 235);;
-    }
 
     .grid1{
         display: flex;
