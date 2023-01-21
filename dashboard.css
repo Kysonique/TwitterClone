@@ -56,7 +56,6 @@ li{
 
 #newMessage{
     margin-left: 25%;
-    flex-direction: column;
     flex-grow: 3;
 }
 
@@ -65,6 +64,19 @@ li{
     margin-left: 25%;
     margin-top: 3%;
 }
+
+#cardDiv{
+    width: 250px;
+    height: 100px;
+    text-overflow: clip;
+}
+#card-text{
+    border: none;
+    text-align: justify;
+    text-justify:distribute-all-lines;
+}
+
+
 
 .btn-group{
     height: fit-content;

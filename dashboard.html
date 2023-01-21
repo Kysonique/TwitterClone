@@ -23,7 +23,7 @@
 
   <body id="grid" class="grid">
     
-    <!--Leftside taskbar links to other pages-->
+  <!--Leftside taskbar links to other pages-->
     <section id="leftside" class="grid" style="background-color: rgb(134, 191, 240);">
       <div id="mainDiv">
         <div id="imgad">
@@ -54,7 +54,7 @@
       </div>
     </section>
     
-    <!--Middle of page-->
+  <!--Middle of page-->
     <section id="bio" class="grid">
       <!-- bio  image -->
         <div>
@@ -120,10 +120,11 @@
           </div>
         </div>    
     
-      <!--post cards-->
+  <!--post cards-->
       <!-- new message post -->
-      <input type="text" id="newMessage" placeholder="Create new post">
-      <input for="newMessage" type="submit" name="submit">
+      <input type="text" id="newMessage" placeholder="Create new post" maxlength="50">
+      <input id="msgBtn" for="newMessage" type="submit" name="submit">
+      <input id="msgBtn" for="newMessage" type="file" name="JPG" mimeType="image/jpeg">
       <!-- new post -->
         <div id="postcardSection">
           <div id="postcard" class="postcard">
@@ -136,10 +137,9 @@
                 />
                 <h5 class="card-title">Display Name</h5>
                 <h6 class="card-subtitle mb-2 text-muted">@Username</h6>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </p>
+                <div id="cardDiv"><input type="input" id="card-text" class="card-text" placeholder="Some quick example text to build on the card title and make up the
+                bulk of the card's content."></div>
+               
 
                 <button id="deletePost"
                     type="button"
@@ -148,7 +148,7 @@
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 0.5rem;
                       --bs-btn-font-size: 0.75rem;">
-                    delete
+                    
                 </button>
                 <button id="editPost"
                     type="button"
@@ -156,8 +156,8 @@
                     style="
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 0.5rem;
-                      --bs-btn-font-size: 0.75rem;">
-                    edit
+                      --bs-btn-font-size: 0.75rem;" onclick="editNewPost()">
+                    
                 </button>
               </div>  
             </div>
@@ -171,4 +171,6 @@
   </body>
 
 </html>
+
+
 

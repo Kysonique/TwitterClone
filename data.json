@@ -8,7 +8,7 @@
             "phoneNumber" : "1234567899",
             "userName" : "SoTech1",
             "password" : "$Tech100",
-            "uid" : "0"
+            "uuid" : "0"
         },
 
         {
@@ -19,7 +19,7 @@
             "phoneNumber" : "1234567890",
             "userName" : "Tech1",
             "password" : "$Tech100",
-            "uid" : "1"
+            "uuid" : "1"
         },
 
         {
@@ -30,20 +30,26 @@
             "phoneNumber" : "1234567891",
             "userName" : "TheTech1",
             "password" : "$Tech100",
-            "uid" : "2"
+            "uuid" : "2"
         }
     ],
 
     "posts" : [
         {
             "message" : "text",
-            "uid" : "0"
+            "uuid" : "0"
 
         },
 
         {
             "message" : "text",
-            "uid" : "1"
+            "uuid" : "1"
+
+        }, 
+
+        {
+            "message" : "text",
+            "uuid" : "2"
 
         }
     ]

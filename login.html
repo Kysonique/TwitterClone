@@ -7,7 +7,7 @@
       rel="stylesheet"
       href="login.css"
     />
-    <!--bootstrap-->
+    <!--bootstrap--> 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,6 +28,7 @@
 
     <div id="formDiv">
       <div>
+        <!-- logo images -->
         <img
           src="C:\Users\kyras\OneDrive\Pictures\blueOP.png"
           width="40%"
@@ -37,9 +38,11 @@
 
       <h1>Member log in</h1>
 
+  <!-- login template -->
       <form id="form1">
         <div class="form-input">
           <input
+            id="userName"
             class="form-control form-control-lg"
             type="text"
             placeholder="Username"
@@ -49,6 +52,7 @@
 
         <div class="form-input">
           <input
+            id="userPassword"
             class="form-control form-control-lg"
             type="text"
             placeholder="Password"
@@ -58,11 +62,11 @@
       </form>
 
       <!--link to dashboard-->
-      <a
+      <!-- <a
         href="dashboard.html"
-      >
-        <button type="button" class="btn btn-info">Log in</button>
-      </a>
+      > -->
+        <button id="logInBtn" type="button" class="btn btn-info">Log in</button>
+      <!-- </a> -->
 
       <h4>or</h4>
 
@@ -84,6 +88,7 @@
         >
       </p>
     </div>
+    <script src="login.js"></script>
   </body>
   <footer>
     <p>
