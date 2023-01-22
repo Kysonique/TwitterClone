@@ -98,7 +98,7 @@
               >Your Post</label
             >
 
-            <input
+            <!-- <input
               type="radio"
               class="btn-check"
               name="btnradio"
@@ -107,16 +107,16 @@
             />
             <label class="btn btn-outline-primary" for="btnradio2"
               >Interactions</label
-            >
+            > -->
 
             <input
               type="radio"
               class="btn-check"
               name="btnradio"
-              id="btnradio3"
+              id="btnradio2"
               autocomplete="off"
             />
-            <label class="btn btn-outline-primary" for="btnradio3">Gallery</label>
+            <label class="btn btn-outline-primary" for="btnradio2">Gallery</label>
           </div>
         </div>    
     
@@ -124,47 +124,51 @@
       <!-- new message post -->
       <input type="text" id="newMessage" placeholder="Create new post" maxlength="50">
       <input id="msgBtn" for="newMessage" type="submit" name="submit">
-      <input id="msgBtn" for="newMessage" type="file" name="JPG" mimeType="image/jpeg">
+      <input id="msgBtn" for="newMessage" type="file" name="JPG" contentType="image/jpeg">
+      
       <!-- new post -->
-        <div id="postcardSection">
-          <div id="postcard" class="postcard">
-            <div class="card" style="width: 18rem">
-              <div class="card-body">
-                <img
-                  src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <h5 class="card-title">Display Name</h5>
-                <h6 class="card-subtitle mb-2 text-muted">@Username</h6>
-                <div id="cardDiv"><input type="input" id="card-text" class="card-text" placeholder="Some quick example text to build on the card title and make up the
-                bulk of the card's content."></div>
-               
+      <div id="postcardSection">
+        <div id="postcard" class="postcard">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <img
+                src="C:\Users\kyras\OneDrive\Pictures\opalLogop.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title">Display Name</h5>
+              <h6 class="card-subtitle mb-2 text-muted">@Username</h6>
+              <div id="cardDiv"><input type="input" id="card-text" class="card-text" placeholder="Some quick example text to build on the card title and make up the
+              bulk of the card's content."></div>
+              
 
-                <button id="deletePost"
-                    type="button"
-                    class="btn btn-outline-primary"
-                    style="
-                      --bs-btn-padding-y: 0.25rem;
-                      --bs-btn-padding-x: 0.5rem;
-                      --bs-btn-font-size: 0.75rem;">
-                    
-                </button>
-                <button id="editPost"
-                    type="button"
-                    class="btn btn-outline-primary"
-                    style="
-                      --bs-btn-padding-y: 0.25rem;
-                      --bs-btn-padding-x: 0.5rem;
-                      --bs-btn-font-size: 0.75rem;" onclick="editNewPost()">
-                    
-                </button>
-              </div>  
-            </div>
+              <button id="deletePost"
+                  type="button"
+                  class="btn btn-outline-primary"
+                  style="
+                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-x: 0.5rem;
+                    --bs-btn-font-size: 0.75rem;">
+                  
+              </button>
+              <button id="editPost"
+                  type="button"
+                  class="btn btn-outline-primary"
+                  style="
+                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-x: 0.5rem;
+                    --bs-btn-font-size: 0.75rem;" onclick="editNewPost()">
+                  
+              </button>
+            </div>  
           </div>
         </div>
+      </div>
+
+      <!-- Images div -->
+        <div id="imagesDiv"></div>
+  
     </section>
- 
 
     <!--JS-->
     <script src="main.js"></script>

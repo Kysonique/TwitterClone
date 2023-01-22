@@ -77,7 +77,6 @@ li{
 }
 
 
-
 .btn-group{
     height: fit-content;
 }
@@ -85,6 +84,13 @@ li{
 #edit-btn{
     height: fit-content;
     width: fit-content;
+}
+
+#imagesDiv{
+    border: blue 2px solid;
+    width: 500px;
+    height: 500px;
+    margin-left: 20%;
 }
 
 @media screen and (max-width: 992px) {

@@ -14,9 +14,9 @@ password.addEventListener('keyup', (event) =>{
 
 const loginBtn = document.getElementById('logInBtn');
 
+
 loginBtn.addEventListener('click', (event) =>{
     window.location.href = "file:///C:/Users/kyras/OneDrive/Desktop/FED-2211%20Repos/TwitterClone/dashboard.html";
-
 });
 
 
