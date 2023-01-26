@@ -1,5 +1,6 @@
 {
-    "users" : [
+    "users" : {
+        "uuid0" : 
         {
             "firstName" : "Ava",
             "lastName" : "Bo",
@@ -7,21 +8,21 @@
             "emailAddress" : "AvaBo@email.com",
             "phoneNumber" : "1234567899",
             "userName" : "SoTech1",
-            "password" : "$Tech100",
-            "uuid" : "0"
+            "password" : "$Tech100"
         },
 
-        {
+        "uuid1" :
+         {
             "firstName" : "Iva",
             "lastName" : "Bo",
             "birthday" : "03/04/2003",
             "emailAddress" : "IvaBo@email.com",
             "phoneNumber" : "1234567890",
             "userName" : "Tech1",
-            "password" : "$Tech100",
-            "uuid" : "1"
+            "password" : "$Tech100"
         },
 
+       "uuid2":
         {
             "firstName" : "Eva",
             "lastName" : "Bo",
@@ -29,28 +30,29 @@
             "emailAddress" : "EvaBo@email.com",
             "phoneNumber" : "1234567891",
             "userName" : "TheTech1",
-            "password" : "$Tech100",
-            "uuid" : "2"
+            "password" : "$Tech100"
         }
-    ],
+    },
 
-    "posts" : [
-        {
-            "message" : "text",
-            "uuid" : "0"
-
+    "posts" : {
+       "uuid0" : 
+       {
+            "message" : "string",
+            "image"   : "string"  
         },
 
-        {
-            "message" : "text",
-            "uuid" : "1"
+       "uuid1" :
+       {
+            "message" : "string",
+            "image"   : "string"  
 
         }, 
 
-        {
-            "message" : "text",
-            "uuid" : "2"
+       "uuid2": 
+       {
+            "message" : "string",
+            "image"   : "string"  
 
         }
-    ]
+    }
 }
