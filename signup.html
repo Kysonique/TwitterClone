@@ -50,7 +50,7 @@
             type="text"
             placeholder="First name"
             aria-label=".form-control-lg example"
-          />
+          required/>
         </div>
 
         <div class="form-input">
@@ -174,11 +174,11 @@
         <p id="warninglabel">Terms and conditions apply, agree to terms.</p>
 
           <!--submit form button-->
-          <button id="submitUserBtn" type="button" class="btn btn-info btn-lg">
-            <a href="login.html">
-            Submit
-          </a>
+          <button id="submitUserBtn" type="button" class="btn btn-info btn-lg" onclick="handleSubmitBtn()">Submit
           </button>
+          <!-- <a href="login.html">
+          Submit
+        </a> -->
 
           <!--back to welcome page-->
         <a href="welcome.html">
