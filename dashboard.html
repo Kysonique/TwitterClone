@@ -72,11 +72,12 @@
             width="100%"
             height="100%"
           />
-          <p><strong>Display Name</strong>@Username</p>
-          <input type="text" id="bioParagraph" name="bioParagraph" placeholder="This area is for the bio. Users can list details, hobbies, and
-          interest.">
+          <p id="displayUserName"></p>
+
+          <textarea id="bioParagraph" name="bioParagraph">This area is for the bio. Users can list details, hobbies, and
+          interest.</textarea>
           
-          <button id="edit-btn" type="button" class="btn btn-outline-warning btn-sm" onclick="editBio()">
+          <button id="edit-btn" type="button" class="btn btn-outline-warning btn-sm" onclick="editBio()">Edit profile
           </button>
 
 
@@ -98,17 +99,6 @@
               >Your Post</label
             >
 
-            <!-- <input
-              type="radio"
-              class="btn-check"
-              name="btnradio"
-              id="btnradio2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="btnradio2"
-              >Interactions</label
-            > -->
-
             <input
               type="radio"
               class="btn-check"
@@ -122,13 +112,13 @@
     
   <!--post cards-->
       <!-- new message post -->
-      <input type="text" id="newMessage" placeholder="Create new post" maxlength="50">
-      <input id="msgBtn" for="newMessage" type="submit" name="submit">
-      <input id="filegBtn" for="newMessage" type="file" name="JPG" contentType="image/jpeg">
+      <textarea type="text" id="newMessage" maxlength="50" placeholder="New Comment">
+      </textarea>
+      <input id="msgBtn" for="newMessage" class="btn btn-info" type="submit" name="submit">
       
       <!-- new post -->
       <div id="postcardSection">
-        <!-- <div id="postcard" class="postcard">
+        <!--<div id="postcard" class="postcard">
           <div class="card" style="width: 18rem">
             <div class="card-body">
               <img
@@ -160,14 +150,17 @@
                     --bs-btn-font-size: 0.75rem;" onclick="editNewPost()">
                   
               </button>
-            </div>  
           </div>
         </div> -->
       </div>
 
       
       <!-- Images div -->
-        <div id="imagesDiv"></div>
+      
+      <div id="imagesDiv">
+          <input id="filegBtn" accept="image/jpeg, image/png, image/jpg" class="btn btn-info" type="file" contentType="image/jpeg">
+          <output></output>
+        </div>
   
     </section>
 

@@ -43,14 +43,18 @@
 
     <!-- //sign up form -->
     <div>
+      <a href="login.html">
+        <button type="button" class="btn btn-outline-info">Login</button>
+      </a> <alt>Already a member?</alt>
+      
       <section class="form1-table">
         <div class="form-input">
           <input id="firstName-input"
             class="form-control form-control-lg"
             type="text"
             placeholder="First name"
-            aria-label=".form-control-lg example"
-          required/>
+            aria-label=".form-control-lg example" required
+          />
         </div>
 
         <div class="form-input">
@@ -58,7 +62,7 @@
             class="form-control form-control-lg"
             type="text"
             placeholder="Last name"
-            aria-label=".form-control-lg example"
+            aria-label=".form-control-lg example" required
           />
         </div>
 
@@ -66,8 +70,9 @@
           <input id="birthday-input"
             class="form-control form-control-lg"
             type="text"
+            accept="mm/dd/yyyy"
             placeholder="Birthday"
-            aria-label=".form-control-lg example"
+            aria-label=".form-control-lg example" required
           />
         </div>
         <alt>Birthday will not be displayed.</alt>
@@ -76,8 +81,8 @@
           <input id="email-input"
             class="form-control form-control-lg"
             type="text"
-            placeholder="Email Adress"
-            aria-label=".form-control-lg example"
+            placeholder="Email Address"
+            aria-label=".form-control-lg example" required
           />
         </div>
 
@@ -86,7 +91,7 @@
             class="form-control form-control-lg"
             type="text"
             placeholder="Phone number"
-            aria-label=".form-control-lg example"
+            aria-label=".form-control-lg example" required
           />
         </div>
 
@@ -95,7 +100,7 @@
             class="form-control form-control-lg"
             type="text"
             placeholder="Create username"
-            aria-label=".form-control-lg example"
+            aria-label=".form-control-lg example" required
           />
         </div>
         <alt>
@@ -108,7 +113,7 @@
             class="form-control form-control-lg"
             type="text"
             placeholder="Create password"
-            aria-label=".form-control-lg example"
+            aria-label=".form-control-lg example" required
           />
         </div>
       </section>
@@ -119,7 +124,7 @@
             class="form-control form-control-lg"
             type="text"
             placeholder="Re-enter password"
-            aria-label=".form-control-lg example"
+            aria-label=".form-control-lg example" required
           />
         </div>
 
@@ -174,16 +179,15 @@
         <p id="warninglabel">Terms and conditions apply, agree to terms.</p>
 
           <!--submit form button-->
+          
           <button id="submitUserBtn" type="button" class="btn btn-info btn-lg" onclick="handleSubmitBtn()">Submit
           </button>
-          <!-- <a href="login.html">
-          Submit
-        </a> -->
+          
 
           <!--back to welcome page-->
-        <a href="welcome.html">
-          <button type="button" class="btn btn-outline-info">Cancel</button>
-        </a>
+          <a href="welcome.html">
+            <button type="button" class="btn btn-outline-info">Cancel</button>
+          </a>
       </section>
     </div>
 
